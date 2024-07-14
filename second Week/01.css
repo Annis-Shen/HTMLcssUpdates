@@ -47,6 +47,37 @@ table {
 	border-spacing: 0;
 }
 
-h1{
-    color:blue;
+.wrap{
+    font-family: Bruno Ace SC,-apple-system, BlinkMacSystemFont ;
+    margin: 0 auto;
+}
+
+.header{
+    background-color: black;
+    align-items: center;
+}
+
+.nav{
+   
+    border: 1px solid white;
+    
+}
+
+.nav ul{
+    display: flex;
+    justify-content:space-around
+ ;
+    
+}
+
+.nav3{
+    width: 278.5px;
+}
+
+.nav a{
+    display: block;
+    color: white;
+    padding: 52px 0px;
+    text-decoration: none;
+
 }
