@@ -52,22 +52,22 @@ table {
     margin: 0 auto;
 }
 
-.header{
-    background-color: black;
-    align-items: center;
+a{
+   text-decoration: none;
 }
 
-.nav{
-   
-    border: 1px solid white;
-    
+
+.header{
+    margin:auto;
+    background-color: black;
+    align-items: center;
+
 }
+
 
 .nav ul{
     display: flex;
-    justify-content:space-around
- ;
-    
+    justify-content:space-around;  
 }
 
 .nav3{
@@ -78,6 +78,54 @@ table {
     display: block;
     color: white;
     padding: 52px 0px;
-    text-decoration: none;
-
+    
 }
+.d-flex{
+    display: flex;
+}
+
+.banner{
+    font-size: 64px;
+   
+    align-items: center;
+}
+
+
+.pic {
+    padding-top: 72px;
+    margin: 0 auto;
+}
+
+.text{
+    width: 636px;
+    color: white;
+    line-height: 96px;
+    margin-left:24px;  
+    margin-left: auto;
+}
+
+text ul{
+    display:flex;
+    list-style: none;
+}
+
+.name{
+    color:  #00FFA3;
+    font-size: 128px;
+    line-height: 192px;
+    text-align: right;
+}
+
+.contactme{
+    background: white;
+    display: block;
+    width: 148px;
+    color: black;
+    font-size: 16px;
+    padding: 12px 24px;
+    line-height: 24px;
+    border-radius:10px;
+    margin-left: auto;
+}
+
+
