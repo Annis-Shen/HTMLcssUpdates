@@ -47,7 +47,13 @@ table {
 	border-spacing: 0;
 }
 
+body{
+    background:  black;
+
+}
+
 .wrap{
+    width: 1296px;
     font-family: Bruno Ace SC,-apple-system, BlinkMacSystemFont ;
     margin: 0 auto;
 }
@@ -117,15 +123,21 @@ text ul{
 }
 
 .contactme{
-    background: white;
-    display: block;
-    width: 148px;
-    color: black;
+    display: flex;
+    background: white; 
+    width: 185px;
     font-size: 16px;
-    padding: 12px 24px;
     line-height: 24px;
     border-radius:10px;
     margin-left: auto;
+    
 }
 
+.contactme a{
+    display: block;
+    color: black;
+    padding: 12px 0px;
+    
+    
+}
 
