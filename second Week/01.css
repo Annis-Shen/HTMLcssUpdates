@@ -238,6 +238,7 @@ text ul{
 .contact .wrap{
     justify-content: space-around;
     align-items: center;
+    
 }
 
 
@@ -267,10 +268,68 @@ text ul{
 
 .myproject {
     background: white;
+    height: 962px;
 }
 
+.myproject .wrap{
+    padding-top: 160px;
+    
+    
+}
 
+.myproject .largetext{
+    display: flex;
+    font-size: 64px;
+    line-height: 96px;
+    flex-direction: row-reverse;
+    margin-right: 346px;
+    margin-bottom: 16px;
+}
 
+.myproject .continer{
+    align-items: center;
+    justify-content: center;
+   
+}
+
+.right {
+    width: 70%;
+    
+}
+
+.top{
+    justify-content: space-around;
+    margin-bottom: 28px;
+}
+
+.seemore{
+    display: flex;
+    width: 636px;
+    flex-direction: column;
+    
+    
+}
+
+.bottom{
+    display: flex;
+    background: black;
+    margin-top: auto;
+    border-radius:10px;
+    width:160px;
+    padding: 12px;
+}
+
+.seemore a{
+    font-size: 16px;
+    line-height: 24px;
+    color: white;
+}
+
+.right .under{
+    justify-content: space-around;
+    align-items: baseline;
+
+}
 
 .footer{
     display: flex;
@@ -285,3 +344,6 @@ text ul{
     line-height: 24px;
     margin: 40px 0px;
 }
+
+
+
