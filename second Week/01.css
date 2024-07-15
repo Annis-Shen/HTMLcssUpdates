@@ -151,3 +151,59 @@ text ul{
     line-height: 48px;
     text-align: center;
 }
+
+.middle{
+    background-image: url("https://github.com/hexschool/2022-web-layout-training/blob/main/2023week2/background-img.png?raw=true");
+    background-size: cover ;
+    background-repeat: no-repeat;
+}
+
+.midleft li{
+  font-size: 24px;
+  color: white;
+  line-height: 36px;
+  margin-bottom: 32px;
+}
+
+.middle .wrap{
+    padding: 160px 0px;
+}
+
+.midleft .midtitle{
+    font-size: 64px;
+    line-height: 96px;
+    margin-bottom: 36px;
+}
+
+.midright img{
+    height: 600px;
+    margin-left:24px;
+}
+
+.aboutme{
+    display: flex;
+    background: white;
+    height: 740px;
+    align-items: center;
+}
+
+.aboutme .continer{
+    align-items: center;
+}
+
+.column{
+    width: 50%;
+    flex-wrap: wrap;
+    border: black 1px solid;
+}
+
+.card{
+    width: 50%;
+
+}
+.aboutme .text{
+    color: black;
+    font-size: 24px;
+  line-height: 36px;
+  
+}
