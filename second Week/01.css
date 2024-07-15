@@ -184,26 +184,53 @@ text ul{
     display: flex;
     background: white;
     height: 740px;
-    align-items: center;
+    
 }
 
 .aboutme .continer{
+    justify-content: space-around;
     align-items: center;
+}
+
+*{
+    box-sizing: border-box;
 }
 
 .column{
     width: 50%;
     flex-wrap: wrap;
-    border: black 1px solid;
 }
 
 .card{
-    width: 50%;
+    width: 45%;
+    margin-right: 24px;
+    margin-bottom: 24px;
+    padding: 16px;
+    border: 1px solid #E3E3E3;
+
 
 }
 .aboutme .text{
     color: black;
     font-size: 24px;
   line-height: 36px;
+  width: 526px;
   
+}
+
+.text .title{
+    color: black;
+    font-size:64px;
+    line-height: 96px;
+}
+
+.card li{
+    font-size: 16px;
+    line-height: 24px;
+    color: #15161D;
+}
+
+.card .detail{
+    font-size: 20px;
+    line-height: 30px;
 }
