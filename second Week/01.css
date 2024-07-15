@@ -84,8 +84,13 @@ a{
     display: block;
     color: white;
     padding: 52px 0px;
-    
 }
+
+.nav a:hover{
+    color: #00FFA3;
+    font-size: 20px;
+}
+
 .d-flex{
     display: flex;
 }
@@ -125,31 +130,21 @@ text ul{
 .contactme{
     display: flex;
     background: white; 
-    width: 185px;
+    width: 160px;
+    padding:12px;
+    border-radius:30px;
+    margin-left: auto;
+}
+
+.text a{
     font-size: 16px;
     line-height: 24px;
-    border-radius:10px;
-    margin-left: auto;
-    
-}
-
-.contactme a{
-    display: block;
     color: black;
-    margin:0 auto;
-    height: 48px;
-    line-height: 48px;
-    text-align: center;
 }
 
-.contactme a:hover{
+.text a:hover{
     background: black;
     color: #00FFA3;
-    margin:0 auto;
-    height: 48px;
-    width: 185px;
-    line-height: 48px;
-    text-align: center;
 }
 
 .middle{
@@ -314,7 +309,7 @@ text ul{
     display: flex;
     background: black;
     margin-top: auto;
-    border-radius:10px;
+    border-radius:30px;
     width:160px;
     padding: 12px;
 }
@@ -323,6 +318,10 @@ text ul{
     font-size: 16px;
     line-height: 24px;
     color: white;
+}
+
+.seemore a:hover{
+    color: #00FFA3;
 }
 
 .right .under{
