@@ -136,8 +136,18 @@ text ul{
 .contactme a{
     display: block;
     color: black;
-    padding: 12px 0px 12px 24px;
-    
-    
+    margin:0 auto;
+    height: 48px;
+    line-height: 48px;
+    text-align: center;
 }
 
+.contactme a:hover{
+    background: black;
+    color: #00FFA3;
+    margin:0 auto;
+    height: 48px;
+    width: 185px;
+    line-height: 48px;
+    text-align: center;
+}
