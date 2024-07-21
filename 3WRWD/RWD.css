@@ -47,3 +47,17 @@ border-collapse: collapse;
 border-spacing: 0;
 }
 
+body{
+    font-family: 'Noto Sans TC','微軟正黑體', sans-serif ;
+    font-size: 20px;
+    line-height: 1.5;
+    color: #ffffff;
+    background-color: #aa0601;
+}
+
+@media screen and (max-width: 767px){
+    body{
+        font-size: 16px;
+    };
+    
+}
