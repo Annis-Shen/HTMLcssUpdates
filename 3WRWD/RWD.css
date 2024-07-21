@@ -70,7 +70,6 @@ body{
 }
 
 img{
-    display: block;
     max-width: 100%;
     height: auto;
 }
@@ -143,12 +142,97 @@ a {
         display: block;
         padding: 12px 0px;
     }
-    
-
 }
 
 
 
 .middle{
- background-color: #ffffff;   
+ background-color: #ffffff;  
+ color: black;
+ padding-top: 96px;
+ padding-bottom: 80px;
+}
+
+.middle h1{
+    font-size: 48px;
+    font-weight: bold;
+    border-left: #aa0601 8px solid;
+    padding-left: 16px;
+    margin-bottom: 33px;
+}
+
+.toggle{
+    margin-bottom: 41px;
+    font-size: 24px;
+}
+
+.toggle .detail{
+    width: 304px;
+    border: 1px solid #CED4DA;
+    padding: 6px 12px;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 16px;
+
+}
+
+.detail p{  
+    color: #495057;
+    font-size: 18px;
+}
+
+.midmap{
+    width: 100%;
+    justify-content: space-between;
+    
+
+}
+.midmap img{
+    width: 55%;
+    margin: 0 auto;
+}
+
+.midmap .column{
+    width: 42%;
+    
+    
+}
+
+.midmap .column img{
+    width: 100%;
+}
+
+.card h3{
+    padding: 8px 24px;
+    border: 1px solid #00000020;
+}
+
+.card ul{
+    padding: 8px 24px;
+    border: 1px solid #00000020;
+}
+
+.card li{
+    padding: 8px 0px;
+
+}
+
+@media screen and (max-width: 767px){
+    .middle .wrap{
+        width:95%;
+    }
+    .midmap{
+        flex-wrap: wrap;
+    }
+
+    .midmap .column{
+        width: 100%;
+    }
+
+    .midmap img{
+        width: 100%;
+        margin: 0 auto;
+        margin-top: 24px;
+    }
+
 }
