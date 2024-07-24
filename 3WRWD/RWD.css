@@ -97,9 +97,6 @@ a {
       height: auto;
   }
 
-.nav{
-    
-}
 
 .nav li a{
     display: block;
@@ -302,9 +299,6 @@ a {
         overflow: hidden;
     }
 
-    .right{
-        
-    }
 
     .padding32{
         padding: 0px 8px;
@@ -329,6 +323,3 @@ a {
     .copyright ul li{
         padding-top: 8px;
     }
-
-
-
