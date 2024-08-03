@@ -1,19 +1,107 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>index</title>
-  </head>
-  <body>
-    <%- include('./layout/header'); -%>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+    <link rel="stylesheet" href="RWDcss">
+    <title>Document</title>
+</head>
+<body>
+    <div class="wrap"> 
+        <div class="header">
+            <div class="column">
+                <a href="#"><img src="https://github.com/hexschool/2022-web-layout-training/blob/main/week3-4/logo-white.png?raw=true" alt="logo"></a>
+            <div class="nav">
+                <ol  class="d-flex">
+                    <li><a href="#">系列框架</a></li>
+                    <li><a href="#">門市據點</a></li>
+                    <li><a href="#">部落格</a></li>
+                    <li><a href="#">常見問題</a></li>
+                </ol>
+            </div>
 
-    <h1 class="index-title">我是首頁</h1>
-    <img src="../assets/images/cat.jpg" style="width: 300px;" alt="cat">
+            </div>
+            
+        </div>
+    </div>
+<div class="middle">
+        <div class="wrap d-flex">
+            <div class="container">
+                <h1>門市據點</h1>
+                <div class="toggle d-flex">
+                    <p>選擇分店</p>
+                    <div class="detail d-flex"> 
+                        <p>台北中山旗艦店</p>
+                        <span class="material-symbols-outlined">
+                            arrow_drop_down
+                            </span>
+                    </div>
+                </div>
+                <div class="midmap d-flex">
+                    <div class="column">
+                        <div class="card ">
+                            <img src="https://github.com/hexschool/2022-web-layout-training/blob/main/week3-4/storepage-1.png?raw=true" alt="Shop">
+                            <h3>台北中山旗艦店</h3>
+                            <ul>
+                              <li><span class="material-symbols-outlined">call</span>電話：</li>
+                              <li><span class="material-symbols-outlined">
+                                schedule
+                                </span>營業時間：10:00-21:00</li>
+                              <li><span class="material-symbols-outlined">
+                                location_on
+                                </span>地址：台北市中山區南京東路25巷2-1號</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <img class="map" src="img/map.png" alt="map">
+                </div>
 
-    <%- include('./layout/footer'); -%>
+            </div>
+        </div>
+</div>
 
-    <script type="module" src="../main.js"></script>
-  </body>
+<div class="wrap">
+    <div class="footer">
+        <div class="d-flex">
+            <div class="footer_nav">
+                <ul class="left d-flex">
+                   <li><a href="#">首頁</a></li>
+                   <li><a href="#">系列鏡框</a></li>
+                   <li><a href="#">門市據點</a></li>
+                   <li><a href="#">部落格</a></li>
+                   <li><a href="#">常見問題</a></li>
+                </ul>
+                <div class="conact">
+                    <ul>
+                        <li><span class="material-symbols-outlined">call</span>0800-000-000</li>
+                        <li><span class="material-symbols-outlined">mail</span>glasses@business.com</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="right d-flex">
+                <ul class="d-flex">
+                    <li><a href="#"><img src="https://github.com/hexschool/2022-web-layout-training/blob/main/week3-4/ic-social-fb.png?raw=true" alt="FB"></a></li>
+                    <li class="padding32"><a href="#"><img src="https://github.com/hexschool/2022-web-layout-training/blob/main/week3-4/ic_social_ig.png?raw=true" alt="IG"></a></li>
+                    <li><a href="#"><img src="https://github.com/hexschool/2022-web-layout-training/blob/main/week3-4/ic_social_line.png?raw=true" alt="LINE"></a></li>
+                </ul>
+            </div> 
+        </div>
+        
+           
+        <div class="copyright d-flex">
+            <p>Copyright © 2020 Glasses.All rights reserved.</p>
+            <ul class="d-flex">
+                <li>隱私權政策</li>
+                <li class="left48">服務條款</li>
+            </ul>
+
+        </div>
+        
+    </div>
+</div>
+
+</body>
 </html>

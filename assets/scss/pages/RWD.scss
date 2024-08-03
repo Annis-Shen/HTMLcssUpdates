@@ -1,0 +1,326 @@
+/* http://meyerweb.com/eric/tools/css/reset/
+v2.0 | 20110126
+License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+margin: 0;
+padding: 0;
+border: 0;
+font-size: 100%;
+font: inherit;
+vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+display: block;
+}
+body {
+line-height: 1;
+}
+ol, ul {
+list-style: none;
+}
+blockquote, q {
+quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+content: '';
+content: none;
+}
+table {
+border-collapse: collapse;
+border-spacing: 0;
+}
+
+*, *::after, *::before {
+    box-sizing: border-box;
+  }
+
+body{
+    font-family: 'Noto Sans TC','微軟正黑體', sans-serif ;
+    font-size: 20px;
+    line-height: 1.5;
+    color: #ffffff;
+    background-color: #aa0601;
+}
+
+@media screen and (max-width: 767px){
+    body{
+        font-size: 16px;
+    };
+}
+
+.d-flex{
+    display: flex;
+}
+
+img{
+    max-width: 100%;
+    height: auto;
+}
+
+a {
+    text-decoration: none;
+    color:#ffffff;
+  }
+
+.wrap{
+    width: 80%;
+    margin: 0 auto;
+
+}
+
+  .column{
+      display: flex;
+      justify-content:space-between;
+      align-items: center;
+
+  }
+
+  .header  img{
+      width: 80px;
+      height: auto;
+  }
+
+
+.nav li a{
+    display: block;
+    padding: 25px 32px;
+
+}
+
+
+@media screen and (max-width: 767px){
+   .wrap{
+       width:100%;
+       margin: 0 auto;
+   }
+    .column{
+        
+        display: block;
+    }
+
+    .column img{
+        margin: 12px;
+    }
+
+    .nav{
+        padding: 0px 0px;
+    }
+
+
+    .nav ol{
+        width: auto;
+        flex-wrap: wrap;
+        text-align:center;
+    }
+
+    .nav li{
+        width: 50%;
+        border: 1px solid #E3E3E3;
+    }
+
+    .nav li a{
+        display: block;
+        padding: 12px 0px;
+    }
+}
+
+
+
+.middle{
+ background-color: #ffffff;  
+ color: black;
+ padding-top: 96px;
+ padding-bottom: 80px;
+}
+
+.middle h1{
+    font-size: 48px;
+    font-weight: bold;
+    border-left: #aa0601 8px solid;
+    padding-left: 16px;
+    margin-bottom: 33px;
+}
+
+.toggle{
+    margin-bottom: 41px;
+    font-size: 24px;
+}
+
+.toggle .detail{
+    width: 304px;
+    border: 1px solid #CED4DA;
+    padding: 6px 12px;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 16px;
+
+}
+
+.detail p{  
+    color: #495057;
+    font-size: 18px;
+}
+
+.midmap{
+    width: 100%;
+    justify-content: space-between;
+    
+
+}
+.midmap img{
+    width: 55%;
+    margin: 0 auto;
+}
+
+.midmap .column{
+    width: 42%;
+    
+    
+}
+
+.midmap .column img{
+    width: 100%;
+}
+
+.card h3{
+    padding: 8px 24px;
+    border: 1px solid #00000020;
+}
+
+.card ul{
+    padding: 8px 24px;
+    border: 1px solid #00000020;
+}
+
+.card li{
+    padding: 8px 0px;
+
+}
+
+@media screen and (max-width: 767px){
+    .middle .wrap{
+        width:95%;
+    }
+    .midmap{
+        flex-wrap: wrap;
+    }
+
+    .midmap .column{
+        width: 100%;
+    }
+
+    .midmap img{
+        width: 100%;
+        margin: 0 auto;
+        margin-top: 24px;
+    }
+
+}
+
+
+.footer{
+    margin-top:60px;
+}
+
+.footer .d-flex{
+    justify-content: space-between;
+}
+
+.footer_nav{
+    font-size: 16px;
+    margin-left: -24px;
+}
+
+
+.left li{
+    padding: 0px 24px;
+}
+
+.right{
+    width: 20%;
+}
+
+.right a{
+    display: block;
+}
+
+.padding32{
+    padding: 0px 32px;
+}
+
+
+.footer .conact{
+    font-size: 36px;
+    border-bottom: 1px solid #ffffff;
+    padding: 32px 0px;
+}
+
+.conact .material-symbols-outlined{
+    font-size: 36px;
+    margin-right: 22px;
+}
+
+.copyright{
+    font-size: 16px;
+    padding: 32px 0px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.copyright ul{
+    width: 20%;
+    justify-content: space-between;
+}
+
+
+@media screen and (max-width: 767px){
+    .footer{
+        padding: 0 10px;
+        margin-top: 24px;
+    }
+
+    .footer_nav .left{
+        display: none;
+    }
+    .padding32{
+        padding: 0px 8px;
+    }
+
+    .footer .conact{
+        font-size: 16px;
+        margin-left: 24px;
+        margin-top: -32px;
+    }
+
+    .conact .material-symbols-outlined{
+        font-size: 16px;
+    }
+
+    .copyright{
+        display: block;
+    }
+
+    .copyright ul{
+        display: block;
+    }
+
+    .copyright ul li{
+        padding-top: 8px;
+    }
